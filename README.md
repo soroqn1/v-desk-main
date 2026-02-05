@@ -35,16 +35,6 @@ Spin up all containers (Database, API, and Web Client) in detached mode:
 docker-compose up -d --build
 ```
 
-#### 3. Initialize Database (Migrations & Seeds)
-Once the containers are running, synchronize the database schema and populate it with demo tasks:
-```bash
-# Apply migrations
-docker-compose exec backend npx sequelize-cli db:migrate
-
-# Populate with demo data
-docker-compose exec backend npx sequelize-cli db:seed:all
-```
-
 ---
 
 ### 🔗 Access Points
