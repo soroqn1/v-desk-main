@@ -54,6 +54,12 @@ docker-compose exec backend npx sequelize-cli db:seed:all
 
 ---
 
+### 🌍 Deployment Links
+*   **Production UI:** [Vercel](https://v-desk-bmtewhz7h-soroqn1s-projects.vercel.app)
+*   **Production API:** [ Render](https://v-desk-api.onrender.com)
+
+---
+
 ### 🛡️ Infrastructure Highlights
 - **Service Orchestration:** Uses `docker-compose` to manage networking and service dependencies.
 - **Hot-Reloading:** Both Frontend and Backend containers are configured with volumes for real-time development.
